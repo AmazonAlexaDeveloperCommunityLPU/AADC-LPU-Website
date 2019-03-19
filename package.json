@@ -1,0 +1,24 @@
+{
+  "name": "aadc-lpu-website",
+  "version": "1.0.0",
+  "description": "Website for Amazon Alexa Developer Community LPU",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amazon-alexa-developer-community-lpu/AADC-LPU-Website.git"
+  },
+  "author": "Rajdeep Roy Chowdhury",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amazon-alexa-developer-community-lpu/AADC-LPU-Website/issues"
+  },
+  "homepage": "https://github.com/amazon-alexa-developer-community-lpu/AADC-LPU-Website#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
