@@ -83,7 +83,7 @@ a, a:hover, a:active{ outline:0px !important}
 /* Primary Styles
 ---------------------------------*/
 body {
-	background:#fff;
+	background: #000;
 	font-family: 'Lato', sans-serif;
 	font-size:14px;
 	font-weight:normal;
@@ -92,7 +92,7 @@ body {
 }
 h2{
 	font-size:38px;
-	color:#222222;
+	color:#d3d3d3;
 	font-family:'Dosis';
 	font-weight:700;
 	margin:35px 0 25px 0;
@@ -102,7 +102,7 @@ h2{
 h3{
 	font-family: 'Dosis', sans-serif;
 	font-weight: 600;
-	color:#222222;
+	color:#d3d3d3;
 	font-size:16px;
 	margin:0 0 5px 0;
 	text-transform:uppercase;
@@ -124,7 +124,7 @@ p{
 ---------------------------------*/
 
 #header_outer{
-	background:#ffffff;
+	background:#000;
 	padding:30px 0px;
 	}
 
@@ -174,7 +174,7 @@ p{
 .nav ul li a{
 	display:block;
 	font-size:14px;
-	color:#222222;
+	color:#d3d3d3;
 	font-family:'Dosis';
 	text-decoration:none;
 	text-transform:uppercase;
@@ -194,7 +194,8 @@ p{
 ---------------------------------*/
 
 .top_cont_outer{
-	background:#f9f9f9;
+	/*background:#f9f9f9;*/
+	background: #000;
 	position:relative;
 	}
 	
@@ -235,7 +236,7 @@ p{
 	
 .top_left_cont h2{
 	font-size:40px;
-	color:#111111;
+	color:#ffffff;
 	line-height: 52px;
 	margin:0 0 26px 0;
 	font-family:'Dosis';
@@ -270,7 +271,7 @@ a.learn_more2{
 	-webkit-transition:all 0.2s ease-in-out;
 	}
 a.learn_more2:hover{
-	background:#222222;
+	background:#d3d3d3;
 	}
 
 	
@@ -361,13 +362,14 @@ a.learn_more2:hover{
 
 
 #work_outer{
-	background:#f9f9f9;
+	background:#00000;
 	padding:70px 0px;
 	position:relative;
 	}
 	
 	
 .top_cont_latest{
+	background: #000000;
 	background:url(../img/dashboard_pic.png) no-repeat right bottom;
 }
 	
@@ -438,7 +440,7 @@ a.contact_btn{
 	-webkit-transition:all 0.2s ease-in-out;
 	}
 a.contact_btn:hover{
-	background:#222222;
+	background:#d3d3d3;
 	}
 
 
@@ -497,7 +499,7 @@ a.contact_btn:hover{
 	padding:10px 22px;
 	font-size:12px;
 	line-height:20px;
-	color:#222222;
+	color:#d3d3d3;
 	border-radius:4px;
 	text-transform:uppercase;
 	font-family: 'LatoRegular', sans-serif;
@@ -514,6 +516,7 @@ a.contact_btn:hover{
 }
 
 .portfolioContainer{
+	background: #00000;
 	margin:0 auto;
 	padding-left:15px;
 	width:auto !important;
@@ -1017,7 +1020,7 @@ img {
 	line-height:48px;
 	font-size:25px;
 	color:#fff;
-	background:#222222;
+	background:#d3d3d3;
 	border-radius:50%;
 	transition:all 0.3s ease-in-out;
 }
@@ -1214,7 +1217,7 @@ img {
 	#filters ul li a h5 {
 		background: none repeat scroll 0 0 #f7f7f7;
     border-radius: 4px;
-    color: #222222;
+    color: #d3d3d3;
     display: inline-block;
     font-family: 'LatoRegular',sans-serif;
     font-size: 12px;
@@ -1232,7 +1235,7 @@ img {
 	}
 	
 .section-title h2{
-	color: #222222;
+	color: #d3d3d3;
     font-family: DosisBold;
     font-size: 34px;
     font-weight: normal;
@@ -1330,7 +1333,7 @@ img {
 	}
 	
 	.project-name {
-		color:#222222;
+		color:#d3d3d3;
 		text-transform:uppercase;
 		margin-top:25px;
 		font-family:DosisBold;
@@ -1574,7 +1577,7 @@ img {
 	}
 	
 	.project-description h5 {
-		color:#222222;
+		color:#d3d3d3;
 		text-transform:uppercase;
 		margin-bottom:5px;
 	}
