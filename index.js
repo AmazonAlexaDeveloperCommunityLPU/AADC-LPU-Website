@@ -3,7 +3,7 @@ path=require('path');
 bodyParser=require('body-parser');
 app=express()
 
-port = 1998;
+port = process.env.PORT || 1998;
 
 app.use(express.static(path.join(__dirname, 'public')));
 // support parsing of application/json type post data
