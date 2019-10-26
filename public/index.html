@@ -1,7 +1,7 @@
-<!doctype html>
+﻿<!doctype html>
 <html >
-
 <head >
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, maximum-scale=1">
 	<title>Homepage</title>
@@ -12,10 +12,8 @@
 	<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
 	<link href="css/responsive.css" rel="stylesheet" type="text/css">
 	<link href="css/animate.css" rel="stylesheet" type="text/css">
-
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,900,700,700italic,400italic,300italic,300,100italic,100,900italic' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Dosis:400,500,700,800,600,300,200' rel='stylesheet' type='text/css'>
-
 
 	<script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
@@ -39,12 +37,8 @@
 						$('#header_outer').removeClass('fixed');
 					}
 				});
-
 			});
-
-
 		});
-
 		function resizeText() {
 			var preferredWidth = 767;
 			var displayWidth = window.innerWidth;
@@ -55,9 +49,6 @@
 		}
 	</script>
 </head>
-
-
-
 	<!--Header_section-->
 	<header id="header_outer">
 		<div class="container">
@@ -86,9 +77,11 @@
 				<a class="res-nav_click animated wobble wow" href="javascript:void(0) "><i class="fa-bars"></i></a> </div>
 		</div>
 	</header>
+
 	<!--Header_section-->
 
 	<!--Top_content-->
+
 	<section id="top_content" class="top_cont_outer">
 		<div class="top_cont_inner">
 			<div class="container">
@@ -186,7 +179,7 @@
 			<div class="section-title">
 				<h2>Acheivements and Presence</h2>
 			</div>
-		</div>
+			</div>
 		<div class="portfolio-top"></div>
 			<div class="isotope" style="position: relative; overflow: hidden; height: 480px;" id="portfolio-wrap">
 				<div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   videography isotope-item">
@@ -198,7 +191,7 @@
 								<h4 class="project-name">Alexa Tech Community-LPU @</h4>
 								<p class="project-categories">GNA University</p>
 							</div>
-						</div>
+							</div>
 					</a>
 				</div>
 				<div style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
@@ -661,22 +654,17 @@ I chose voice developer and Amazon Alexa.  <small><img src="img/quote_sign_right
 					});
 				});
 			}
-
 			function setProjects() {
 				setColumns();
 				container.isotope('reLayout');
 			}
-
 			container.imagesLoaded(function() {
 				setColumns();
 			});
-
-
 			$(window).bind('resize', function() {
 				setProjects();
 			});
-
-		});
+	});
 		$(window).load(function() {
 			jQuery('#all').click();
 			return false;
